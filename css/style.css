@@ -41,7 +41,11 @@ li{
     border: 1px dashed goldenrod;
     color: gray;
 }
-
+h1{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 /*///////// main /////////*/
 
 
@@ -59,6 +63,10 @@ li{
 .box-logo{
     margin-bottom: 10px;
     position: relative;
+}
+.box-logo img{
+    height: 50px;
+    width: 70%;
 }
 .box-logo-small{
     display: none;
@@ -114,7 +122,9 @@ li{
 .right{
     width: 80%;
     height: calc(100vh - 100px);
+    overflow: auto;
 }
+
 
 
 
@@ -126,16 +136,65 @@ li{
     display: flex;
     justify-content: flex-end;
     align-items: center ;
+    position: sticky;
+    top: 0;
 }
 .section-right-top a{
     color: white;
     border: 1px solid white;
+}
+.container-header{
+    color: gray;
 }
 
 
 
 
 /* section right bottom*/
+.section-right-bottom{
+    background-color: #4D4D4D;
+    
+}
+
+.container-header{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.container-main{
+    max-width: 100%;
+}
+.my-row,
+.my-col-1-6{
+    width: 100%;
+}
+.my-col-1-6{
+    display: flex;
+}
+.card-my-col-1-6{
+    width: calc(100% / 6);
+    padding: 10px;
+}
+.container-main{
+    width: 100%;
+}
+.box-img{
+    margin-bottom: 20px;
+}
+.box-info{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.box-info h3{
+    color: white;
+}
+.box-info h4{
+    color: gray;
+}
+.radius{
+    border-radius: 50%;
+}
 
 
 
