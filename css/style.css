@@ -3,9 +3,69 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid black;
 }
 /* general */
-.container{
-    width: 1200px;
-    margin: auto;
+div{
+    border: 1px dashed blue
+}
+p{
+    border: 1px dashed red;
+}
+section{
+    border: 1px dashed green
+}
+a{
+    border: 1px dashed violet;
+}
+
+/*///////// main /////////*/
+
+/* section top */
+
+
+
+/* section bottom */
+
+
+
+
+/* section bottom-right */
+
+
+
+
+/* section bottom-left */
+
+
+
+
+
+/*////// footer ///////*/
+
+
+
+
+
+
+
+
+/*/////////// breakpoint //////////// */
+
+/* media 1000px */
+
+@media screen and ( max-width : 1000px) {
+    
+}
+
+/* media 700px */
+
+@media screen and ( max-width : 700px) {
+    
+}
+
+/* media 600px */
+
+@media screen and ( max-width : 600px) {
+    
 }
