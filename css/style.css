@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
 }
 /* general */
 main{
@@ -39,6 +39,7 @@ a{
 }
 li{
     border: 1px dashed goldenrod;
+    color: gray;
 }
 
 /*///////// main /////////*/
@@ -53,9 +54,18 @@ li{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: black;
 }
 .box-logo{
     margin-bottom: 10px;
+    position: relative;
+}
+.box-logo-small{
+    display: none;
+    max-width: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 .left-top, 
 .left-bottom,
@@ -65,8 +75,38 @@ li{
 .list-overflow{
     margin-bottom: 50px;
 }
-
-
+.list-top ul li div{
+    display: inline-block;
+}
+.list ul li div{
+    display: inline-block;
+}
+.list{
+    margin-top: 20px;
+}
+.left-bottom div .item,
+.left-bottom div .title {
+    display: inline-block;
+}
+#border-left-yellow{
+    color: white;
+    border-left: 1px solid yellow;
+}
+.fa-plus{
+    padding: 5px;
+}
+.list ul li h4,
+#home,
+#Don-jhoe{
+    font-style: bold;
+    color: white;
+}
+#back-beige{
+    background-color: beige;
+}
+.left-bottom{
+    color: gray;
+}
 
 
 /* section right */
@@ -82,11 +122,14 @@ li{
 .section-right-top{
     width: 100%;
     min-height: 100px;
-}
-.section-right-top{
+    background-color: rgba(0, 0, 0, 0.8);
     display: flex;
     justify-content: flex-end;
     align-items: center ;
+}
+.section-right-top a{
+    color: white;
+    border: 1px solid white;
 }
 
 
@@ -103,10 +146,66 @@ li{
 .container-footer{
     width: 100%;
     max-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
 }
-
-
-
+.container-footer .box-footer-left,
+.container-footer .box-footer-right{
+    display: flex;
+}
+.container-footer .box-footer-right{
+    justify-content: flex-end;
+}
+.container-footer > * {
+    width: calc(100% / 3);
+}
+.container-footer > * > *{
+    padding: 20px;
+}
+.song-img{
+    width: 30%;
+    display: flex; 
+}
+.song-img img{
+    object-fit: cover;
+}
+.songer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-footer-left div i,
+.box-footer-right div i { 
+    color: lightslategray;
+}
+.box-footer-left div h4,
+.box-footer-left div h5{
+    font-size: 10px;
+    text-align: center;
+}
+.box-footer-left div h4{
+    font-style: bold;
+    color: white;
+}
+.box-footer-left div h5{
+    color: lightslategray;
+}
+.soundtrack{
+    display: flex;
+}
+.track-bar-song{
+    width: 100px;
+    height: 1px;
+    border: 2px solid gainsboro;
+}
+.avaiable{
+    width: 30px;
+    height: 2px;
+    border: 2px solid gray;
+}
 
 
 
