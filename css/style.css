@@ -3,8 +3,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
 }
 /* general */
+main{
+    width: 100%;
+    display: flex;
+}
+img{
+    width: 100%;
+    display: block;
+}
+li{
+    list-style: none;
+}
+
+/* debug */
 div{
     border: 1px dashed blue
 }
@@ -16,13 +30,15 @@ section{
 }
 a{
     border: 1px dashed violet;
+    border-radius: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 20px;
+    padding: 5px 20px;
+    text-decoration: none; 
 }
 li{
     border: 1px dashed goldenrod;
-}
-main{
-    width: 100%;
-    display: flex;
 }
 
 /*///////// main /////////*/
@@ -34,8 +50,21 @@ main{
 .left{
     width: 20%;
     height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-
+.box-logo{
+    margin-bottom: 10px;
+}
+.left-top, 
+.left-bottom,
+.list-overflow{
+    padding: 10px;
+}
+.list-overflow{
+    margin-bottom: 50px;
+}
 
 
 
@@ -50,9 +79,14 @@ main{
 
 
 /* section right top */
-.section-main-top{
+.section-right-top{
     width: 100%;
-    min-height: 50px;
+    min-height: 100px;
+}
+.section-right-top{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center ;
 }
 
 
@@ -82,7 +116,7 @@ main{
 
 /* media 1000px */
 
-@media screen and ( max-width : 1000px) {
+@media screen and ( max-width : 1100px) {
     
 }
 
