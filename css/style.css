@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
 }
 /* general */
 div{
@@ -18,30 +17,59 @@ section{
 a{
     border: 1px dashed violet;
 }
+li{
+    border: 1px dashed goldenrod;
+}
+main{
+    width: 100%;
+    display: flex;
+}
 
 /*///////// main /////////*/
 
-/* section top */
+
+
+/* section left */
+
+.left{
+    width: 20%;
+    height: calc(100vh - 100px);
+}
 
 
 
-/* section bottom */
+
+
+/* section right */
+
+.right{
+    width: 80%;
+    height: calc(100vh - 100px);
+}
+
+
+
+/* section right top */
+.section-main-top{
+    width: 100%;
+    min-height: 50px;
+}
 
 
 
 
-/* section bottom-right */
-
-
-
-
-/* section bottom-left */
+/* section right bottom*/
 
 
 
 
 
 /*////// footer ///////*/
+
+.container-footer{
+    width: 100%;
+    max-height: 100px;
+}
 
 
 
