@@ -154,45 +154,7 @@ h1{
 /* section right bottom*/
 .section-right-bottom{
     background-color: #4D4D4D;
-    
 }
-
-.container-header{
-    text-align: center;
-}
-.container-header ul li {
-    display: inline-block;
-    margin: 0px 10px;
-}
-.container-main{
-    margin: 0 10px;
-}
-.my-row{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
-.card-box{
-    width: calc((100% / 6) - 20px);
-    margin: 0 20px;
-}
-.box-img{
-    margin-bottom: 20px;
-}
-.box-info{
-    text-align: center;
-    margin-bottom: 20px;
-}
-.box-info h3{
-    color: white;
-}
-.box-info h4{
-    color: gray;
-}
-.radius{
-    border-radius: 50%;
-}
-
 
 
 
