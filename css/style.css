@@ -32,6 +32,14 @@ h1{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+h3{
+    font-weight: bold;
+    color: white;
+}
+h4{
+    font-weight: bold;
+    color: lightslategray;
+}
 /*///////// main /////////*/
 
 
@@ -348,7 +356,5 @@ footer{
     }
     .list-top ul li .title{
         display: none;
-    }
-    
-   
+    }   
 }
