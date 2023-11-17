@@ -16,19 +16,7 @@ img{
 li{
     list-style: none;
 }
-
-/* debug */
-div{
-    border: 1px dashed blue
-}
-p{
-    border: 1px dashed red;
-}
-section{
-    border: 1px dashed green
-}
 a{
-    border: 1px dashed violet;
     border-radius: 20px;
     line-height: 30px;
     text-align: center;
@@ -37,7 +25,6 @@ a{
     text-decoration: none; 
 }
 li{
-    border: 1px dashed goldenrod;
     color: gray;
 }
 h1{
@@ -114,8 +101,6 @@ h1{
 .list-overflow ul li {
     margin-left: -10px;
 }
-
-
 /* section right */
 
 .right{
@@ -143,7 +128,6 @@ h1{
 .container-header{
     color: gray;
 }
-
 /* section right bottom*/
 .section-right-bottom{
     background-color: #4D4D4D;
@@ -197,10 +181,6 @@ h1{
 .radius > img{
     border-radius: 50%;
 }
-
-
-
-
 /*////// footer ///////*/
 footer{
     background-color: black;
@@ -244,27 +224,93 @@ footer{
 }
 
 /* footer mid */
-
-
-
-
+.top-mid,
+.bottom-mid{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.track-bar{
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+.track-bar:hover .time-laps{
+    border: 2px solid yellow ;
+}
+.track-bar:hover .time-point{
+    display: block ;
+}
+.track-sound-bar:hover .sound-laps{
+    border: 2px solid yellow ;
+}
+.track-sound-bar:hover .sound-point{
+    display: block;
+}
+.time-laps{
+    width: 30%;
+    border: 2px solid white;
+    height: 2px;
+}
+.time-point{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: white;
+    border-color: white;
+    display: none;
+}
+.time-bar{
+    width: 70%;
+    border: 2px solid gray;
+    height: 2px;
+}
 /* footer-right */
-
-
-
-
+.box-footer-right{
+    display: flex;
+    justify-content: flex-end;
+}
+.track-sound-bar{
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+.sound-laps{
+    width: 30%;
+    border: 2px solid white;
+    height: 2px;
+}
+.sound-point{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: white;
+    border-color: white;
+    display: none;
+}
+.sound-bar{
+    width: 70%;
+    border: 2px solid gray;
+    height: 2px;
+}
 /*/////////// breakpoint //////////// */
 
 /* media 1000px */
 
 @media screen and ( max-width : 1100px) {
-    
+    .card{
+        width: calc((100% / 4) - 10px);
+    }
 }
 
 /* media 700px */
 
 @media screen and ( max-width : 700px) {
-    
+    .card{
+        width: calc((100% / 2) - 10px);
+    }   
 }
 
 /* media 600px */
