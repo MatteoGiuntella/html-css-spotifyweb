@@ -53,10 +53,10 @@ h1{
 }
 .box-logo-small{
     display: none;
-    width: 150px;
-    position: absolute;
+    width: 50px;
+    /* position: absolute;
     top: 0px;
-    left: 0px;
+    left: 0px; */
 }
 .left-top, 
 .left-bottom,
@@ -65,6 +65,9 @@ h1{
 }
 .list-overflow{
     margin-bottom: 50px;
+}
+.list-top ul li{
+    margin-bottom: 10px;
 }
 .list-top ul li div{
     display: inline-block;
@@ -315,6 +318,27 @@ footer{
 
 /* media 600px */
 
-@media screen and ( max-width : 600px) {
+@media screen and (max-width: 600px) {
+    .left{
+        width: 80px;
+    }
+    .right{
+        width: calc(100% - 80px);
+    }
+    .list-overflow,
+    .left-bottom,
+    .list{
+        display: none;
+    }
+    .box-logo > img{
+        display: none;
+    }
+    .box-logo-small{
+        display: block;
+    }
+    .list-top ul li .title{
+        display: none;
+    }
     
+   
 }
