@@ -89,6 +89,10 @@ h1{
 .fa-plus{
     padding: 5px;
 }
+li:hover{
+    font-weight: bold;
+    color: white;
+}
 .list ul li h4,
 #home,
 #Don-jhoe{
@@ -127,6 +131,9 @@ h1{
 .section-right-top a{
     color: white;
     border: 1px solid white;
+}
+.section-right-top a:hover{
+    line-height: 50px;
 }
 .container-header{
     color: gray;
@@ -239,6 +246,9 @@ footer{
     width: 300px;
     display: flex;
     align-items: center;
+}
+.fa-play:hover{
+    font-size: 50px;
 }
 .track-bar:hover .time-laps{
     border: 2px solid yellow ;
