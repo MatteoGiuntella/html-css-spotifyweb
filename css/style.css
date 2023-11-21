@@ -49,9 +49,8 @@ h4{
 .left{
     width: 200px;
     height: calc(100vh - 100px);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    /* display: flex;
+    flex-direction: column; */
     background-color: black;
 }
 .box-logo{
@@ -62,9 +61,11 @@ h4{
 .box-logo-small{
     display: none;
     width: 50px;
-    /* position: absolute;
-    top: 0px;
-    left: 0px; */
+}
+.left-top{
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 100px);
 }
 .left-top, 
 .left-bottom,
@@ -72,7 +73,8 @@ h4{
     padding: 10px;
 }
 .list-overflow{
-    margin-bottom: 50px;
+   flex-grow: 1;
+   overflow: auto;
 }
 .list-top ul li{
     margin-bottom: 10px;
