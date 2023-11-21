@@ -232,12 +232,10 @@ footer{
     height: 100%;
 }
 .box-footer-left > *{
-    margin: 10px;
     text-align: center;
 }
 .item-footer,
 .autore{
-    padding-top: 10px;
 }
 .item-footer > *{
     padding: 0 20px;
@@ -249,8 +247,7 @@ footer{
     color: white;
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
 }
 .track-bar{
     width: 300px;
@@ -289,6 +286,9 @@ footer{
     width: 70%;
     border: 2px solid gray;
     height: 2px;
+}
+.divisory{
+    margin: 10px;
 }
 /* footer-right */
 .box-footer-right{
